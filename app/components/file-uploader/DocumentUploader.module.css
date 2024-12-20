@@ -1,0 +1,19 @@
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0rem auto;
+  }
+  
+  .dropzone {
+    width: 100%;
+    height: 5rem;
+    margin: 1rem 0;
+    background: #eee;
+    border: 2px dashed #aaa;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: 500;
+  }

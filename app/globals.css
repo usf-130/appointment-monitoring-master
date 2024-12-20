@@ -1,0 +1,500 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+ 
+body {
+	font-family: var(--iransans) !important;
+	direction: rtl;
+	background-color: #fdfdfd;
+	margin: 10;
+}
+h1, h2, h3, h4, h5, h6,input, textarea {
+	font-family: var(--iransans) !important;
+}
+h1 {
+	font-weight: bold;
+}
+:root {
+	--toastify-font-family: var(--iransans) !important;
+}
+
+
+.card-title{
+	font-weight: 400;
+}
+.card-actions .dropdown {
+  line-height: 1.4;
+}
+.header-title {
+  color: #fff;
+  font-size: 1.640625rem;
+}
+
+.modal-98w {
+	max-width: 98% !important;
+	margin: 0 auto;
+  }
+.modal-80w {
+	max-width: 80% !important;
+	margin: 0 auto;
+  }
+
+  .map-button {
+	font-family: var(--iransans) !important;
+	font-size: 12px;
+	font-weight: bold;
+  }
+
+.ltr {
+	direction: ltr;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-small {
+	font-size: 0.8em;
+}
+.text-xsmall {
+	font-size: 0.6em;
+}
+.text-large {
+	font-size: 1.2em;
+}
+.text-xlarge {
+	font-size: 1.4em;
+}
+.text-underline {
+	text-decoration:underline;
+}
+.text-ultralight {
+	font-weight: 200;
+}
+.text-light {
+	font-weight: 300;
+}
+.text-regular {
+	font-weight: normal;
+}
+.text-medium {
+	font-weight: 500;
+}
+.text-bold {
+	font-weight: bold;
+}
+.text-black {
+	font-weight: 900;
+}
+blockquote {
+	font-weight: 500;
+	padding: 10px;
+	border: 1px dashed #666666;
+}
+
+.mainbox {
+	width: 100%;
+	background-color: #EFEFEF;
+	display: table;
+	margin-bottom: 30px;
+	border-right: 8px solid #FFFF33;
+}
+.header-subtitle {
+  color: #fff;
+  font-size: .9375rem;
+}
+.header {
+  margin-bottom: 3rem;
+  position: relative;
+}
+.content {
+  flex: 1;
+  margin-top: 9rem;
+  padding: 0 0.5rem;
+}
+.form-control-lite {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+}
+.mainboxnegativ {
+	width: 100%;
+	background-color: #000000;
+	display: table;
+	margin-bottom: 30px;
+	border-right: 8px solid #FFFF33;
+	color: #F9F9F9;
+}
+
+.mainbox2 {
+	font-size: 1em;
+	width: 90%;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mainbox3 {
+	width: 100%;
+	background-color: #b8b8b8;
+	display: table;
+	margin-bottom: 30px;
+	border-right: 8px solid #bd70ff;
+}
+
+.mainbox2negativ {
+	font-size: 1em;
+	color: #F9F9F9;
+	background-color: #000000;
+	padding-right: 20px;
+}
+
+.farsiparagraph {
+	font-size: 1em;
+	width: 47%;
+	float:right;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.englishparagraph {
+	font-size: 1em;
+	width: 47%;
+	float: left;
+	direction:ltr;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+.rightbox {
+	width: 60%;
+	padding-right: 20px;
+	padding-left: 5px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	min-width: 0px;
+	background-color: #F7F7F7;
+
+}
+
+.titelbox {
+	width: 60%;
+	padding-right: 25px;
+	padding-left: 0px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	min-width: 0px;
+	background-color: #F2F2F2;
+	color: #4B4B4B;
+}
+
+
+.lefttbox {
+	
+	padding-right: 20px;
+	padding-left: 4px;
+	float: right;
+	margin-bottom: 10px;
+	min-width: 0px;
+}
+
+.alphabet {
+	width: 35%;
+	float: left;
+	font-size: 21em;
+	text-align: center;
+	font-weight: 500;
+	color: #999999;
+}
+
+.alphabet2 {
+	width: 35%;
+	float: left;
+	direction: ltr;
+	font-size: 1.6em;
+	text-align: left;
+	font-weight: 500;
+	color: #333333;
+	margin-top: 100px;
+}
+.footer {
+	font-weight: 300;
+	font-size: 0.7em;
+	text-align: center;
+	direction: ltr;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.wrapper {
+  align-items: stretch;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.sidebar.toggled {
+  margin-left: -250px;
+}
+.sidebar {
+  display: none;
+  background: transparent;
+  border-right: 0;
+  box-shadow: 0 0 2rem 0 rgba(0,0,0,.05);
+  max-width: 250px;
+  min-width: 250px;
+  transition: margin-left .3s ease-in-out,left .3s ease-in-out,margin-right .3s ease-in-out,right .3s ease-in-out;
+  z-index: 1;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 0;
+  transition: margin-left .3s ease-in-out,left .3s ease-in-out,margin-right .3s ease-in-out,right .3s ease-in-out;
+  width: 100%;
+}
+.header {
+  margin-bottom: 3rem;
+  position: relative;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  position: relative;
+}
+
+.wrapper:before {
+  background:url(/img/shafafiyat.jpg) #153d77;
+  content: " ";
+  height: 310px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-size: cover;
+}
+
+.footer{
+  background: #153d77;
+  min-height: 100px;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+}
+.bg-primary-dark {
+  background-color: #2469ce!important;
+}
+.avatar-title {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.feather {
+  height: 16px;
+  width: 16px;
+}
+.card-counter{
+  transition: 0.5s;
+}
+.card-counter:hover{
+  background: #f1c40f;
+  cursor: pointer;
+}
+.fa-cog:before, .fa-gear:before {
+  content: "";
+}
+.nav-item .indicator {
+  background: #fd7e14;
+  border-radius: 50%;
+  box-shadow: 0 0 2rem 0 rgba(0,0,0,.05);
+  display: block;
+  height: 9px;
+  position: absolute;
+  right: 0;
+  top: 18px;
+  transition: top .1s ease-out;
+  width: 9px;
+}
+.nav-item:hover .indicator {
+  top: 15px;
+}
+.fa-envelope-open:before {
+  content: "";
+}
+.profile-nav li{
+  border: 1px solid #fff;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+.profile-nav li .bx{
+  color: #F2F2F2;
+}
+.profile-nav .dropdown-toggle::after{
+color: #F2F2F2;
+}
+
+
+.ag-theme-alpine {
+	font-family: var(--iransans) !important;
+}
+.ag-theme-alpine .ag-header {
+	font-family: var(--iransans) !important;
+}
+.ag-theme-alpine .ag-header-group-cell {
+    font-weight: normal;
+	font-family: var(--iransans) !important;
+    font-size: 14px;
+
+}
+.ag-theme-alpine .ag-header-cell {
+    font-size: 14px;
+	font-weight: 700;
+	font-family: var(--iransans) !important;
+	
+}
+.ag-theme-alpine .ag-cell{
+	font-family: var(--iransans) !important;
+}
+.ag-row {
+	min-height: 75px; /* Adjust the value as needed */
+  }
+
+  .ag-cell {
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+  }
+
+  
+.ag-chart-wrapper {
+    touch-action: auto !important;
+}
+
+.card{
+	border-radius: 10px;
+	
+}
+#eduDegreePie{
+	font-family: var(--iransans) !important;
+}
+
+.dark-backdrop {
+	background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .modal-square {
+	max-width: 500px; /* Set your desired width */
+	width: 100%;
+	height: 100%;
+	margin: auto;
+  }
+
+  .modal {
+	transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .modal.show {
+	opacity: 1;
+	transform: translateX(0);
+  }
+
+  .thumbnail-container {
+	position: relative;
+	display: inline-block;
+	transition: transform 0.2s;
+  }
+  
+  .thumbnail-container.hovered {
+	transform: scale(1.3);
+  }
+
+  .thumbnail-container.hoveredx {
+	transform: scale(1.1);
+  }
+
+  .thumbnail-wrapper {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 50%;
+  }
+  
+  .thumbnail-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  
+@media screen and (max-width: 1200px) {
+	/* change margin */
+	.m-card {
+		margin: 10px 0;
+	}
+	/* end of change */
+}
+
+/* Mobile Css */
+
+@media screen and (max-width: 480px) {
+	.content {
+		margin-top: 16rem;
+	}
+	/*  banner image  */
+	.wrapper:before {
+		background: url(/img/mobile-banner.jpg) #153d77;
+		height: 380px;
+		width: 100%;
+		background-size: cover;
+	}
+	/* end banner image */
+
+	/* change margin */
+	.m-card {
+		margin: 10px 0;
+	}
+	/* end of change */
+
+	.ag-chart-wrapper {
+		touch-action: auto !important;
+	}
+
+.content .card-title{
+	font-size: 14px;
+}
+.content .display-5{
+font-size: 20px;
+font-weight: 900;
+color: blue;
+}
+
+.card-b-content{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.time-content .fs-4{
+	font-size: 14px !important;
+}
+}
+/* End  Mobile Css */
